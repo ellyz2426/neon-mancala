@@ -1,0 +1,15 @@
+<root>
+  <style>
+    .panel { background-color: rgba(0, 10, 20, 0.92); border-radius: 16; padding: 20; width: 400; gap: 12; align-items: center; border-color: #00ffff; border-width: 2; }
+    .title { font-size: 22; color: #00ffff; }
+    .btn { background-color: rgba(0, 60, 80, 0.8); padding: 10; padding-left: 20; padding-right: 20; border-radius: 8; font-size: 18; color: #00ffff; border-color: #005566; border-width: 1; hover-background-color: rgba(0, 100, 130, 0.9); }
+    .back { background-color: rgba(60, 30, 0, 0.8); color: #ff8800; border-color: #664400; font-size: 14; padding: 6; }
+  </style>
+  <container class="panel">
+    <text class="title">DIFFICULTY</text>
+    <text class="btn" name="btn-diff-0">Easy</text>
+    <text class="btn" name="btn-diff-1">Medium</text>
+    <text class="btn" name="btn-diff-2">Hard</text>
+    <text class="btn back" name="btn-back">BACK</text>
+  </container>
+</root>

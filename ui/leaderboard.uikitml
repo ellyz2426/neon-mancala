@@ -1,0 +1,22 @@
+<root>
+  <style>
+    .panel { background-color: rgba(0, 10, 20, 0.92); border-radius: 16; padding: 16; width: 420; gap: 5; align-items: center; border-color: #00ffff; border-width: 2; }
+    .title { font-size: 20; color: #00ffff; }
+    .entry { font-size: 12; color: #88ccdd; }
+    .back { background-color: rgba(60, 30, 0, 0.8); color: #ff8800; border-color: #664400; padding: 6; padding-left: 14; padding-right: 14; border-radius: 8; font-size: 14; }
+  </style>
+  <container class="panel">
+    <text class="title">LEADERBOARD</text>
+    <text class="entry" name="lb-0"></text>
+    <text class="entry" name="lb-1"></text>
+    <text class="entry" name="lb-2"></text>
+    <text class="entry" name="lb-3"></text>
+    <text class="entry" name="lb-4"></text>
+    <text class="entry" name="lb-5"></text>
+    <text class="entry" name="lb-6"></text>
+    <text class="entry" name="lb-7"></text>
+    <text class="entry" name="lb-8"></text>
+    <text class="entry" name="lb-9"></text>
+    <text class="back" name="btn-back">BACK</text>
+  </container>
+</root>

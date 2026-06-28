@@ -1,0 +1,9 @@
+<root>
+  <style>
+    .panel { background-color: rgba(0, 20, 30, 0.85); border-radius: 8; padding: 6; padding-left: 14; padding-right: 14; border-color: #005566; border-width: 1; }
+    .text { font-size: 13; color: #00ffcc; }
+  </style>
+  <container class="panel">
+    <text class="text" name="toast-text">Toast</text>
+  </container>
+</root>

@@ -1,0 +1,9 @@
+<root>
+  <style>
+    .panel { background-color: rgba(0, 10, 20, 0.7); border-radius: 20; padding: 20; align-items: center; border-color: #00ffff; border-width: 2; }
+    .text { font-size: 48; color: #00ffff; }
+  </style>
+  <container class="panel">
+    <text class="text" name="cd-text">3</text>
+  </container>
+</root>

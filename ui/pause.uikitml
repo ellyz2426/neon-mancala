@@ -1,0 +1,13 @@
+<root>
+  <style>
+    .panel { background-color: rgba(0, 10, 20, 0.92); border-radius: 16; padding: 20; width: 350; gap: 14; align-items: center; border-color: #00ffff; border-width: 2; }
+    .title { font-size: 22; color: #00ffff; }
+    .btn { background-color: rgba(0, 60, 80, 0.8); padding: 10; padding-left: 20; padding-right: 20; border-radius: 8; font-size: 16; color: #00ffff; border-color: #005566; border-width: 1; hover-background-color: rgba(0, 100, 130, 0.9); }
+    .btn-quit { background-color: rgba(80, 20, 0, 0.8); color: #ff4444; border-color: #660000; }
+  </style>
+  <container class="panel">
+    <text class="title">PAUSED</text>
+    <text class="btn" name="btn-resume">RESUME</text>
+    <text class="btn btn-quit" name="btn-quit">QUIT</text>
+  </container>
+</root>

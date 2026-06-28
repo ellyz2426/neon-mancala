@@ -1,0 +1,20 @@
+<root>
+  <style>
+    .panel { background-color: rgba(0, 10, 20, 0.92); border-radius: 16; padding: 16; width: 420; gap: 6; align-items: center; border-color: #00ffff; border-width: 2; }
+    .title { font-size: 20; color: #00ffff; }
+    .item { font-size: 13; color: #88ccdd; padding: 3; background-color: rgba(0, 40, 60, 0.5); border-radius: 6; padding-left: 12; padding-right: 12; hover-background-color: rgba(0, 80, 100, 0.7); }
+    .back { background-color: rgba(60, 30, 0, 0.8); color: #ff8800; border-color: #664400; padding: 6; padding-left: 14; padding-right: 14; border-radius: 8; font-size: 14; }
+  </style>
+  <container class="panel">
+    <text class="title">SEED SKINS</text>
+    <text class="item" name="btn-skin-0">Neon Cyan - DEFAULT</text>
+    <text class="item" name="btn-skin-1">Solar Flare - LOCKED</text>
+    <text class="item" name="btn-skin-2">Plasma Pink - LOCKED</text>
+    <text class="item" name="btn-skin-3">Frost Blue - LOCKED</text>
+    <text class="item" name="btn-skin-4">Toxic Green - LOCKED</text>
+    <text class="item" name="btn-skin-5">Royal Gold - LOCKED</text>
+    <text class="item" name="btn-skin-6">Void Purple - LOCKED</text>
+    <text class="item" name="btn-skin-7">Inferno - LOCKED</text>
+    <text class="back" name="btn-back">BACK</text>
+  </container>
+</root>

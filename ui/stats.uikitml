@@ -1,0 +1,22 @@
+<root>
+  <style>
+    .panel { background-color: rgba(0, 10, 20, 0.92); border-radius: 16; padding: 16; width: 400; gap: 6; align-items: center; border-color: #00ffff; border-width: 2; }
+    .title { font-size: 20; color: #00ffff; }
+    .stat { font-size: 13; color: #88ccdd; }
+    .back { background-color: rgba(60, 30, 0, 0.8); color: #ff8800; border-color: #664400; padding: 6; padding-left: 14; padding-right: 14; border-radius: 8; font-size: 14; }
+  </style>
+  <container class="panel">
+    <text class="title">CAREER STATS</text>
+    <text class="stat" name="stat-0">Games Played: 0</text>
+    <text class="stat" name="stat-1">Wins: 0</text>
+    <text class="stat" name="stat-2">Losses: 0</text>
+    <text class="stat" name="stat-3">Draws: 0</text>
+    <text class="stat" name="stat-4">Total Sows: 0</text>
+    <text class="stat" name="stat-5">Total Captures: 0</text>
+    <text class="stat" name="stat-6">Best Score: 0</text>
+    <text class="stat" name="stat-7">Extra Turns Earned: 0</text>
+    <text class="stat" name="stat-8">Win Streak: 0</text>
+    <text class="stat" name="stat-9">Level: 1</text>
+    <text class="back" name="btn-back">BACK</text>
+  </container>
+</root>

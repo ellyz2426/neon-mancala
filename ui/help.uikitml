@@ -1,0 +1,36 @@
+<root>
+  <style>
+    .panel { background-color: rgba(0, 10, 20, 0.92); border-radius: 16; padding: 16; width: 460; gap: 6; align-items: center; border-color: #00ffff; border-width: 2; }
+    .title { font-size: 20; color: #00ffff; }
+    .section { font-size: 14; color: #ffaa33; }
+    .text { font-size: 11; color: #88ccdd; }
+    .back { background-color: rgba(60, 30, 0, 0.8); color: #ff8800; border-color: #664400; padding: 6; padding-left: 14; padding-right: 14; border-radius: 8; font-size: 14; }
+  </style>
+  <container class="panel">
+    <text class="title">HOW TO PLAY</text>
+    <text class="section">Rules</text>
+    <text class="text">Pick up all seeds from one of your pits</text>
+    <text class="text">Sow one seed counter-clockwise into each pit</text>
+    <text class="text">Land in your mancala = extra turn!</text>
+    <text class="text">Land in empty own pit = capture opposite!</text>
+    <text class="text">Game ends when one side is empty</text>
+    <text class="section">Browser Controls</text>
+    <text class="text">Click a pit or press 1-6 to sow</text>
+    <text class="text">H = hint, U = undo (practice mode)</text>
+    <text class="text">ESC/P = pause</text>
+    <text class="section">VR Controls</text>
+    <text class="text">Laser pointer to aim at pits</text>
+    <text class="text">Trigger to select pit and sow</text>
+    <text class="text">B = pause</text>
+    <text class="section">Game Modes</text>
+    <text class="text">Classic: Standard rules vs AI</text>
+    <text class="text">Speed: Timed turns (20/15/10s)</text>
+    <text class="text">Capture: Bonus for captures</text>
+    <text class="text">Zen: Relaxed, hints always on</text>
+    <text class="text">Daily: Same puzzle for everyone today</text>
+    <text class="text">Practice: Unlimited undo</text>
+    <text class="text">Marathon: Best of 5 series</text>
+    <text class="text">Avalanche: Auto-sow from non-empty pits</text>
+    <text class="back" name="btn-back">BACK</text>
+  </container>
+</root>

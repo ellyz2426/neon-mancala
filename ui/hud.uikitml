@@ -1,0 +1,23 @@
+<root>
+  <style>
+    .panel { background-color: rgba(0, 10, 20, 0.85); border-radius: 10; padding: 8; padding-left: 14; padding-right: 14; gap: 3; width: 320; border-color: #005566; border-width: 1; }
+    .row { flex-direction: row; gap: 12; align-items: center; }
+    .label { font-size: 13; color: #66aacc; }
+    .value { font-size: 15; color: #00ffff; }
+    .turn { font-size: 14; color: #00ff88; }
+    .marathon { font-size: 11; color: #ffaa33; }
+    .timer { font-size: 14; color: #ff6644; }
+  </style>
+  <container class="panel">
+    <container class="row">
+      <text class="value" name="hud-score">You: 0</text>
+      <text class="value" name="hud-ai">AI: 0</text>
+    </container>
+    <text class="turn" name="hud-turn">Your Turn</text>
+    <container class="row">
+      <text class="label" name="hud-mode">CLASSIC</text>
+      <text class="timer" name="hud-timer"></text>
+    </container>
+    <text class="marathon" name="hud-marathon"></text>
+  </container>
+</root>

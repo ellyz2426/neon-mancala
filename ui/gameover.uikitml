@@ -1,0 +1,21 @@
+<root>
+  <style>
+    .panel { background-color: rgba(0, 10, 20, 0.92); border-radius: 16; padding: 20; width: 420; gap: 8; align-items: center; border-color: #00ffff; border-width: 2; }
+    .result { font-size: 26; color: #00ff88; }
+    .stat { font-size: 14; color: #88ccdd; }
+    .btn { background-color: rgba(0, 60, 80, 0.8); padding: 8; padding-left: 16; padding-right: 16; border-radius: 8; font-size: 16; color: #00ffff; border-color: #005566; border-width: 1; hover-background-color: rgba(0, 100, 130, 0.9); }
+    .row { flex-direction: row; gap: 12; }
+  </style>
+  <container class="panel">
+    <text class="result" name="go-result">YOU WIN!</text>
+    <text class="stat" name="go-player">Your Score: 0</text>
+    <text class="stat" name="go-ai">AI Score: 0</text>
+    <text class="stat" name="go-time">Time: 0s</text>
+    <text class="stat" name="go-captures">Captures: 0</text>
+    <text class="stat" name="go-level">Level 1</text>
+    <container class="row">
+      <text class="btn" name="btn-rematch">REMATCH</text>
+      <text class="btn" name="btn-menu">MENU</text>
+    </container>
+  </container>
+</root>
