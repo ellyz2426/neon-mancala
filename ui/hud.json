@@ -1,0 +1,332 @@
+{
+  "element": {
+    "sourceTag": "root",
+    "type": "custom",
+    "children": [
+      {
+        "sourceTag": "container",
+        "type": "custom",
+        "children": [
+          {
+            "sourceTag": "container",
+            "type": "custom",
+            "children": [
+              {
+                "sourceTag": "text",
+                "type": "custom",
+                "children": [
+                  "You: 0"
+                ],
+                "properties": {
+                  "class": "value",
+                  "name": "hud-score"
+                },
+                "dataUid": "uid-4"
+              },
+              {
+                "sourceTag": "text",
+                "type": "custom",
+                "children": [
+                  "AI: 0"
+                ],
+                "properties": {
+                  "class": "value",
+                  "name": "hud-ai"
+                },
+                "dataUid": "uid-5"
+              }
+            ],
+            "properties": {
+              "class": "row"
+            },
+            "dataUid": "uid-3"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [
+              "Your Turn"
+            ],
+            "properties": {
+              "class": "turn",
+              "name": "hud-turn"
+            },
+            "dataUid": "uid-6"
+          },
+          {
+            "sourceTag": "container",
+            "type": "custom",
+            "children": [
+              {
+                "sourceTag": "text",
+                "type": "custom",
+                "children": [
+                  "CLASSIC"
+                ],
+                "properties": {
+                  "class": "label",
+                  "name": "hud-mode"
+                },
+                "dataUid": "uid-8"
+              },
+              {
+                "sourceTag": "text",
+                "type": "custom",
+                "children": [],
+                "properties": {
+                  "class": "timer",
+                  "name": "hud-timer"
+                },
+                "dataUid": "uid-9"
+              }
+            ],
+            "properties": {
+              "class": "row"
+            },
+            "dataUid": "uid-7"
+          },
+          {
+            "sourceTag": "text",
+            "type": "custom",
+            "children": [],
+            "properties": {
+              "class": "marathon",
+              "name": "hud-marathon"
+            },
+            "dataUid": "uid-10"
+          }
+        ],
+        "properties": {
+          "class": "panel"
+        },
+        "dataUid": "uid-2"
+      }
+    ],
+    "properties": {},
+    "dataUid": "uid-1"
+  },
+  "classes": {
+    "panel": {
+      "content": {
+        "backgroundColor": "rgba(0, 10, 20, 0.85)",
+        "borderRadius": 10,
+        "padding": "8",
+        "paddingLeft": "14",
+        "paddingRight": "14",
+        "gap": "3",
+        "width": "320",
+        "borderColor": "#005566",
+        "borderWidth": "1"
+      }
+    },
+    "row": {
+      "content": {
+        "flexDirection": "row",
+        "gap": "12",
+        "alignItems": "center"
+      }
+    },
+    "label": {
+      "content": {
+        "fontSize": "13",
+        "color": "#66aacc"
+      }
+    },
+    "value": {
+      "content": {
+        "fontSize": "15",
+        "color": "#00ffff"
+      }
+    },
+    "turn": {
+      "content": {
+        "fontSize": "14",
+        "color": "#00ff88"
+      }
+    },
+    "marathon": {
+      "content": {
+        "fontSize": "11",
+        "color": "#ffaa33"
+      }
+    },
+    "timer": {
+      "content": {
+        "fontSize": "14",
+        "color": "#ff6644"
+      }
+    }
+  },
+  "ranges": {
+    "uid-1": {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 22,
+        "column": 7
+      }
+    },
+    "panel": {
+      "start": {
+        "line": 2,
+        "column": 4
+      },
+      "end": {
+        "line": 2,
+        "column": 10
+      }
+    },
+    "row": {
+      "start": {
+        "line": 3,
+        "column": 4
+      },
+      "end": {
+        "line": 3,
+        "column": 8
+      }
+    },
+    "label": {
+      "start": {
+        "line": 4,
+        "column": 4
+      },
+      "end": {
+        "line": 4,
+        "column": 10
+      }
+    },
+    "value": {
+      "start": {
+        "line": 5,
+        "column": 4
+      },
+      "end": {
+        "line": 5,
+        "column": 10
+      }
+    },
+    "turn": {
+      "start": {
+        "line": 6,
+        "column": 4
+      },
+      "end": {
+        "line": 6,
+        "column": 9
+      }
+    },
+    "marathon": {
+      "start": {
+        "line": 7,
+        "column": 4
+      },
+      "end": {
+        "line": 7,
+        "column": 13
+      }
+    },
+    "timer": {
+      "start": {
+        "line": 8,
+        "column": 4
+      },
+      "end": {
+        "line": 8,
+        "column": 10
+      }
+    },
+    "uid-2": {
+      "start": {
+        "line": 10,
+        "column": 2
+      },
+      "end": {
+        "line": 21,
+        "column": 14
+      }
+    },
+    "uid-3": {
+      "start": {
+        "line": 11,
+        "column": 4
+      },
+      "end": {
+        "line": 14,
+        "column": 16
+      }
+    },
+    "uid-4": {
+      "start": {
+        "line": 12,
+        "column": 6
+      },
+      "end": {
+        "line": 12,
+        "column": 56
+      }
+    },
+    "uid-5": {
+      "start": {
+        "line": 13,
+        "column": 6
+      },
+      "end": {
+        "line": 13,
+        "column": 52
+      }
+    },
+    "uid-6": {
+      "start": {
+        "line": 15,
+        "column": 4
+      },
+      "end": {
+        "line": 15,
+        "column": 55
+      }
+    },
+    "uid-7": {
+      "start": {
+        "line": 16,
+        "column": 4
+      },
+      "end": {
+        "line": 19,
+        "column": 16
+      }
+    },
+    "uid-8": {
+      "start": {
+        "line": 17,
+        "column": 6
+      },
+      "end": {
+        "line": 17,
+        "column": 56
+      }
+    },
+    "uid-9": {
+      "start": {
+        "line": 18,
+        "column": 6
+      },
+      "end": {
+        "line": 18,
+        "column": 50
+      }
+    },
+    "uid-10": {
+      "start": {
+        "line": 20,
+        "column": 4
+      },
+      "end": {
+        "line": 20,
+        "column": 54
+      }
+    }
+  }
+}
